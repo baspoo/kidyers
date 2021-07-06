@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 4178324254
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb5a8487a87c92320b274b3b7fde2bd2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dbc4c196e290b0d97d76d2540eb3dad7
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundles/ReferenceImageLibrary.asset
+- Assets/AssetBundles/two.png
+- Assets/AssetBundles/one.png
+- Assets/AssetBundles/3tf.jpg
+Dependencies: []
