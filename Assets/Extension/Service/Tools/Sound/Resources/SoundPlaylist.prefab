@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1398398809376732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4857783173461736}
+  - component: {fileID: 5746758883339821206}
+  - component: {fileID: 114227688766174296}
+  m_Layer: 0
+  m_Name: SoundPlaylist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4857783173461736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398398809376732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &5746758883339821206
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398398809376732}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: -1.76
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114227688766174296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398398809376732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50ff8152ec8c62c4390fce29910dd30f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundmusic:
+    bgm_mainmenu:
+      name: "\u0E40\u0E2A\u0E35\u0E22\u0E07\u0E1E\u0E37\u0E49\u0E19\u0E2B\u0E25\u0E31\u0E07
+        \u0E40\u0E21\u0E19\u0E40\u0E21\u0E19\u0E39"
+      isEnable: 0
+      isPlay: 0
+      clip: {fileID: 8300000, guid: 9b944d4be03e03c4aa10b78f19e9da93, type: 3}
+      message: "\u0E40\u0E1E\u0E25\u0E07\u0E1E\u0E37\u0E49\u0E19\u0E2B\u0E25\u0E31\u0E07\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E2B\u0E19\u0E49\u0E32\u0E40\u0E21\u0E19\u0E40\u0E21\u0E19\u0E39\n\n\u0E40\u0E2A\u0E35\u0E22\u0E07\u0E40\u0E14\u0E35\u0E48\u0E22\u0E27\u0E44\u0E21\u0E48\u0E21\u0E35\u0E41\u0E22\u0E01\u0E42\u0E17\u0E19\n"
+      tag: 
+  playlist:
+    sfx_click:
+      name: 
+      isEnable: 0
+      isPlay: 0
+      clip: {fileID: 8300000, guid: fdaa3379eba6cf64984b09ec85d357ff, type: 3}
+      message: 
+      tag: 
+    sfx_select:
+      name: 
+      isEnable: 0
+      isPlay: 0
+      clip: {fileID: 8300000, guid: 8a3f7310961be0e4594028317fb7a7dd, type: 3}
+      message: 'gfdgfd
+
+        fdgdfg
+
+        fdgdfg
+
+        dfgfdg
+
+        dfgfdg
+
+        dfgfdg'
+      tag: 
+    sfx_unselect:
+      name: 
+      isEnable: 0
+      isPlay: 0
+      clip: {fileID: 8300000, guid: bd1c21ed4d729da44ad7be1b7cdd80f3, type: 3}
+      message: 
+      tag: 
+    sfx_pop:
+      name: 
+      isEnable: 0
+      isPlay: 0
+      clip: {fileID: 8300000, guid: e6a66012cdbb24743b9ba0ad3977aa84, type: 3}
+      message: 
+      tag: 
+    sfx_capture:
+      name: 
+      isEnable: 0
+      isPlay: 0
+      clip: {fileID: 0}
+      message: 
+      tag: 
